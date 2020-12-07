@@ -1,0 +1,2 @@
+# jinli.link
+my blog
