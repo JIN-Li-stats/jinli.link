@@ -26,3 +26,6 @@ title = "Jin Li"
 [[menu.main]]
     name = "Subscribe"
     url = "/index.xml"
+
+[params]
+    footer = "&copy; [Jin, Li](https://jinli.link) 2020"
