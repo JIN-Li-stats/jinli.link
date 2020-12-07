@@ -8,13 +8,21 @@ title = "Jin Li"
 
 
 [[menu.main]]
-    name = "Blog"
-    url = "/blog/"
-
-[[menu.main]]
-    name = "Categories"
-    url = "/categories/"
-
+    name = "Home"
+    url = "/"
+    weight = 1
 [[menu.main]]
     name = "About"
     url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 3
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+[[menu.main]]
+    name = "Subscribe"
+    url = "/index.xml"
