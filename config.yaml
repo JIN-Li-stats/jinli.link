@@ -1,6 +1,6 @@
 baseurl: "/"
 languageCode: "en-us"
-title: "A minimal Hugo website"
+title: "Jin, Li"
 theme: "hugo-xmin"
 googleAnalytics: ""
 disqusShortname: ""
@@ -29,8 +29,8 @@ menu:
       url: "index.xml"
 
 params:
-  description: "A website built through Hugo and blogdown."
-  footer: "&copy; [Yihui Xie](https://yihui.org) 2017 -- 2020 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+  description: ""
+  footer: "&copy; [Jin, Li](https://jinli.link) 2020"
 
 markup:
   goldmark:
