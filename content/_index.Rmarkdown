@@ -3,6 +3,4 @@ title: Home
 ---
 
 
-# Jin, Li
-
-## Keep it simple, but not simpler.
+## 几乎处处不知道，几乎必然学不会！
