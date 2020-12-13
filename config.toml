@@ -11,23 +11,23 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
     github  = "https://github.com/JIN-Li-stats"
 
 [[menu.main]]
-    name = "Home"
+    name = "主页"
     url = "/"
     weight = 1
 [[menu.main]]
-    name = "About"
+    name = "关于"
     url = "/about/"
     weight = 2
 [[menu.main]]
-    name = "Blog"
+    name = "博客"
     url = "/blog/"
     weight = 3
 [[menu.main]]
-    name = "Tags"
+    name = "标签"
     url = "/tags/"
     weight = 4
 [[menu.main]]
-    name = "Subscribe"
+    name = "订阅"
     url = "/index.xml"
 
 [params]
