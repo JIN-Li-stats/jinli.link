@@ -23,13 +23,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
     url = "/blog/"
     weight = 3
 [[menu.main]]
-    name = "Note"
-    url = "/note/"
-    weight = 4
-[[menu.main]]
     name = "Tags"
     url = "/tags/"
-    weight = 5
+    weight = 4
 [[menu.main]]
     name = "Subscribe"
     url = "/index.xml"
