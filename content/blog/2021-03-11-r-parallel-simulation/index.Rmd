@@ -9,3 +9,26 @@ tags:
   - R
   - Simulation
 ---
+## 0. 前言
+
+R 语言是不擅长做循环的，因此在编程时我们需要用各种办法来避免或减少循环的出现，例如使用 `apply` 函数族等等。但是在统计模拟中，一些循环甚至是大量的循环可能是必要的。一方面，我们应该尽量优化代码，例如减少类似于自加自减的运算、提前设置变量长度等，*Advanced R* $^{[2]}$ 一书的 $\S$ 5.3.1、$\S$ 24.6 等章节有细致的说明，阅读并实践此书可以写出更高效规范的 R 代码 。另一方面，使用一些更强大的工具来克服 R 的先天不足，例如本文要探讨的并行计算，以及在 R 中使用 C++、 Fortran 等编译型语言等等。
+
+什么是并行计算？
+
+## 1. 用到的 R 包
+- parallel；
+- [foreach](https://CRAN.R-project.org/package=foreach)；
+- [doParallel](https://CRAN.R-project.org/package=doParallel)；
+- [iterators](https://CRAN.R-project.org/package=iterators)。
+
+## 2. 操作
+
+## 3. 注意事项
+
+
+## 参考文献
+
+1. 李舰, 肖凯. 数据科学中的R语言 [M]. 西安交通大学出版社, 2015.
+2. Wickham, Hadley. Advanced R [M]. CRC Press, 2019. ([online version](https://adv-r.hadley.nz/))
+3. 
+4. 
