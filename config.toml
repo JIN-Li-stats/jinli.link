@@ -33,7 +33,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
 
 [params]
     description = "金力的博客"
-    footer = "&copy; [JIN Li](https://jinli.link) 2020"
+    footer = "&copy; [JIN Li](https://jinli.link) 2020-2021"
     
 [permalinks]
   note= "/note/:year/:month/:day/:title/"
