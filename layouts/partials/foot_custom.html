@@ -3,8 +3,7 @@
 
 <script async src="js/center-img.js"></script>
 
-{{ if .IsPage }}
-  {{ partial "disqus.html" . }}
-{{ end }}
+
+{{ template "_internal/disqus.html" . }}
 
 {{ template "_internal/google_analytics.html" . }}
