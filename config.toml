@@ -24,14 +24,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
     name = "博客"
     url = "/blog/"
     weight = 3
-[[menu.main]]
-    name = "类别"
-    url = "/categories/"
-    weight = 4
+#[[menu.main]]
+#    name = "类别"
+#    url = "/categories/"
+#    weight = 4
 [[menu.main]]
     name = "标签"
     url = "/tags/"
-    weight = 5
+    weight = 4
 [[menu.main]]
     name = "订阅"
     url = "/index.xml"
