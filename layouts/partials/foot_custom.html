@@ -3,7 +3,10 @@
 
 <script async src="js/center-img.js"></script>
 
-
-{{ partial "disqus.html" .}}
+{{ if and .Params.comments (gt (len .Site.DisqusShortname) 0) }}
+    <figure class="article-discussion">
+      {{ partial "disqus.html" . }}
+    </figure>
+{{ end }}
 
 {{ template "_internal/google_analytics.html" . }}
