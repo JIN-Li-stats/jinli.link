@@ -1,6 +1,6 @@
 theme = "hugo-xmin"
 baseURL = "http://jinli.link/"
-languageCode = "us-en"
+languageCode = "zh-cn"
 title = "JIN Li"
 relativeURLs = true
 enableEmoji = true
