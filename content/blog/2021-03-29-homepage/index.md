@@ -5,6 +5,7 @@ date: '2021-03-29'
 slug: homepage
 categories: []
 tags: []
+comments: true
 ---
 ## 2020年12月7日
 **《坟》节选**  
