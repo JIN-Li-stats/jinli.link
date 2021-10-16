@@ -1,12 +1,13 @@
 theme = "hugo-xmin"
 baseURL = "http://jinli.link/"
-languageCode = "en-us"
+languageCode = "zh-cn"
 title = "JIN Li"
 relativeURLs = true
 enableEmoji = true
 googleAnalytics = "UA-1988641-2"
 hasCJKLanguage = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+
 
 [social]
     github  = "https://github.com/JIN-Li-stats"
@@ -24,16 +25,26 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
     url = "/blog/"
     weight = 3
 [[menu.main]]
+    name = "类别"
+    url = "/categories/"
+    weight = 4
+[[menu.main]]
     name = "标签"
     url = "/tags/"
-    weight = 4
+    weight = 5
 [[menu.main]]
     name = "订阅"
     url = "/index.xml"
 
 [params]
     description = "金力的博客"
-    footer = "&copy; [JIN Li](https://jinli.link) 2020-2021"
+    footer = "&copy; [JIN Li](https://jinli.link) 2020-2021 | [GitHub](https://github.com/JIN-Li-stats)"
+    
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
     
 [permalinks]
   note= "/note/:year/:month/:day/:title/"
