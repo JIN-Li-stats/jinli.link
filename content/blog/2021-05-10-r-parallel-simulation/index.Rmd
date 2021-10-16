@@ -3,7 +3,6 @@ title: 在 R 中通过并行计算提高统计模拟的计算速度
 author:
 date: '2021-05-10'
 slug: r-parallel-simulation
-comments: true
 categories:
 tags:
   - R
