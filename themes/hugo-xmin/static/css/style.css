@@ -10,11 +10,23 @@ body {
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #FFFEF8;
+  background: #fff;
   border: 1px solid #ddd;
   padding: 5px;
   border-radius: 5px;
   box-shadow: 1px 1px 1px #eee;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid;
+}
+
+a:hover, a:focus {
+  background-color: #FFFEF8;
+  border-radius: 3px;
 }
 
 .terms { font-size: .9em; }
