@@ -7,6 +7,7 @@ enableEmoji = true
 googleAnalytics = "UA-1988641-2"
 hasCJKLanguage = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+disqusShortname = "jinli.link"
 
 
 [social]
