@@ -10,10 +10,13 @@ body {
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #eee;
+  background: #FFFEF8;
+  border: 1px solid #ddd;
   padding: 5px;
   border-radius: 5px;
+  box-shadow: 1px 1px 1px #eee;
 }
+
 .terms { font-size: .9em; }
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
@@ -50,3 +53,12 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+li {
+  margin: 8px 0;
+}
+br {
+  display: block;
+  margin: 8px 0;
+  line-height: 22px;
+  content: " ";
+}
