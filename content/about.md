@@ -1,5 +1,6 @@
 ---
 title: 关于
+comments = false
 ---
 我是金力，一个无聊的人。
 
