@@ -25,13 +25,17 @@ a {
 }
 
 a:hover, a:focus {
-  background-color: #FFFEF8;
+  background-color: #c6dfc8;
   border-radius: 3px;
 }
-
+.menu, .article-meta, footer { text-align: center; }
 .terms { font-size: .9em; }
 .menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.1em; }
+.title { font-size: 1.0em; }
+.subtitle {  
+  font-size: 0.7em; 
+  border-bottom: 1px dashed;
+}
 footer a { text-decoration: none; }
 hr {
   border-style: dashed;
