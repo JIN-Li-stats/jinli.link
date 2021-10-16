@@ -4,10 +4,10 @@ author:
 date: '2021-05-10'
 slug: r-parallel-simulation
 categories:
-  - R
 tags:
   - R
   - Simulation
+cemments: true
 ---
 ## 0. 前言
 
