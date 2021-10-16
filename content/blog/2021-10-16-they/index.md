@@ -2,7 +2,7 @@
 title: '“她们”'
 author: ''
 date: '2021-10-16'
-slug: 'they'
+slug: they
 categories: []
 tags: []
 ---
