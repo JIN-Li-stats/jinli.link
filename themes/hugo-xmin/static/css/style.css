@@ -2,7 +2,7 @@ body {
   max-width: 800px;
   margin: auto;
   padding: 1em;
-  line-height: 2em;
+  line-height: 1.5em;
 }
 
 /* header and footer areas */
@@ -10,11 +10,10 @@ body {
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #fff;
   border: 1px solid #ddd;
   padding: 5px;
   border-radius: 5px;
-  box-shadow: 1px 1px 1px #eee;
+  box-shadow: 2px 2px 2px #eee;
 }
 
 a {
@@ -29,9 +28,9 @@ a:hover, a:focus {
   border-radius: 3px;
 }
 .menu, .article-meta, footer { text-align: center; }
-.terms { font-size: .9em; }
+.terms { font-size: 1.0em; }
 .menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.0em; }
+.title { font-size: 0.8em; }
 .subtitle {  
   font-size: 0.7em; 
   border-bottom: 1px dashed;
