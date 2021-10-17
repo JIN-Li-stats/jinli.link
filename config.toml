@@ -17,13 +17,9 @@ disqusShortname = "jinli-link"
     url = "/"
     weight = 1
 [[menu.main]]
-    name = "关于"
-    url = "/about/"
-    weight = 2
-[[menu.main]]
     name = "博客"
     url = "/blog/"
-    weight = 3
+    weight = 2
 #[[menu.main]]
 #    name = "类别"
 #    url = "/categories/"
@@ -31,6 +27,10 @@ disqusShortname = "jinli-link"
 [[menu.main]]
     name = "标签"
     url = "/tags/"
+    weight = 3
+[[menu.main]]
+    name = "关于"
+    url = "/about/"
     weight = 4
 [[menu.main]]
     name = "订阅"
