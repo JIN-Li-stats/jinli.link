@@ -4,6 +4,7 @@ author: ''
 date: '2021-05-10'
 slug: r-parallel-simulation
 comments: true
+toc: true
 categories: []
 tags:
   - Simulation
