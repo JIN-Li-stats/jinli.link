@@ -50,6 +50,12 @@ pre {
 }
 code { background: #f9f9f9; }
 pre code { background: none; }
+code.has-jax {
+  -webkit-font-smoothing: antialiased;
+  background: inherit !important;
+  border: none !important;
+  font-size: 100%;
+}
 
 /* misc elements */
 img, iframe, video { max-width: 100%; }
