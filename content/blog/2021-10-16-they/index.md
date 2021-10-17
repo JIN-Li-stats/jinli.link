@@ -4,7 +4,7 @@ author: ''
 date: '2021-10-16'
 slug: they
 comments: true
-categories: []
+categories: [日志]
 tags: []
 ---
 >这是我父亲于 2017 年 8 月份写的一篇文章，它静静的在我的邮箱里待了四年。今天稍做编辑，放到博客上来。

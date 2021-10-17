@@ -14,7 +14,7 @@ body {
   font-size: 1.05em; 
 }
 .menu li {
-  display: inline-block; width: 70px;
+  display: inline-block; width: 40px;
 }
 
 .menu a {
