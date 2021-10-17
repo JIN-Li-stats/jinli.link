@@ -2,6 +2,7 @@
 title: 今年的一些流水账
 author: ''
 date: '2021-10-17'
+comments: true
 slug: jinniandejiushi
 categories: [日志]
 tags:
