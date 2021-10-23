@@ -1,13 +1,14 @@
 {{ partial "header.html" . }}
 
+<main>
 <h1>{{ .Title }}</h1>
 
 <ul class="terms">
   {{ range .Data.Terms }}
   <li>
-    <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> ({{ .Count }})
+    <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <span class="bg-number">{{ .Count }}</span></a>
   </li>
   {{ end }}
 </ul>
-
+</main>
 {{ partial "footer.html" . }}

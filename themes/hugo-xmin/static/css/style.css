@@ -1,22 +1,48 @@
 body {
   max-width: 800px;
-  margin: auto;
-  padding: 1em;
+  margin: 0 auto 0;
   line-height: 1.5em;
+  overflow-x: hidden;
 }
-
+main {
+  display: block;
+  hyphens: auto;
+}
+main, .single section, .post-nav {
+  max-width: 800px;
+  margin: 0 auto 0;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  padding-bottom: 0px;
+  border-bottom: 1px dashed;
+}
+a:hover, a:focus {
+  background-color: #fff;
+  border-radius: 1px;
+}
+.terms { font-size: 1.0em; }
 /* header and footer areas */
+/* menu */
 .menu {
-  padding: 0 1em 0; 
+  max-width: 800px;
+  margin: 0 auto 0;
+  padding: 0 2em 0; 
   box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.1); 
   text-align: left; 
   background: #fafafa;
-  font-size: 1.05em; 
+  font-size: 1.0em; 
 }
 .menu li {
-  display: inline-block; width: 60px;
+  display: inline-block;
 }
-
+.menu ul {
+  padding: 1em 0 1em;
+  display: flex;
+  padding-left: 0; 
+  flex-wrap: wrap;
+}
 .menu a {
   padding: 5px;
   margin: 1px;
@@ -25,34 +51,45 @@ body {
   padding-bottom: 0px;
   border-bottom: 0px;
 }
-.menu ul {
-  padding: 1em 0 1em;
-  display: flex;
-  padding-left: 0; 
-}
 .menu a:hover,.menu a:focus  {
   background-color: #fafafa;
   border-radius: 0px;
 }
 
-a {
-  color: #000;
+/* footer */
+footer {
+  max-width: 800px;
+  margin: 0 auto 0;text-align: center;
+}
+footer a {
   text-decoration: none;
-  padding-bottom: 0px;
-  border-bottom: 1px dashed;
+  border-bottom: 0px;
 }
 
-a:hover, a:focus {
-  background-color: #fff;
-  border-radius: 1px;
+.footer a:hover,.menu a:focus  {
+  background-color: #fafafa;
+  border-radius: 0px;
+}
+/* article-meta */
+.article-meta {
+  text-align: center;
+}
+.article-meta a {
+  background-color: lightslategray;
+  color: #fff;
+  padding: 3px;
+  margin: 1px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding-bottom: 3px;
+  border-bottom: 0px;
+}
+.article-meta a:hover,.article-meta:focus  {
+  background-color: lightslategray;
+  color: #fff;
+  border-radius: 5px;
 }
 
-
-.terms { font-size: 1.0em; }
-footer { text-align: center; }
-footer a { text-decoration: none;}
-
-.article-meta { text-align: center; }
 .title { font-size: 0.8em; }
 .subtitle {  
   font-size: 0.7em; 
@@ -81,7 +118,6 @@ code.has-jax {
   border: none !important;
   font-size: 100%;
 }
-
 /* misc elements */
 img, iframe, video { max-width: 100%; }
 main { hyphens: auto; }
