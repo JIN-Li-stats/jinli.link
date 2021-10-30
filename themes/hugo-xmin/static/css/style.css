@@ -3,6 +3,7 @@ html, body {
 }
 
 body {
+  max-width: 800px;
   margin: 0 auto 0;
   line-height: 1.5em;
   overflow-x: hidden;
