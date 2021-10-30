@@ -19,4 +19,14 @@
 <main>
 {{ .Content }}
 </main>
+
+{{ if .Section }}
+<nav class="post-nav">
+  <span class="nav-prev">{{ with .PrevInSection }}&larr; <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</span>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <span class="nav-next">{{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }}</a> &rarr;{{ end }}</span>
+</nav>
+{{ end }}
+
+
 {{ partial "footer.html" . }}

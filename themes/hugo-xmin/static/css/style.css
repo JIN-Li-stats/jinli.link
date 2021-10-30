@@ -3,7 +3,6 @@ html, body {
 }
 
 body {
-  max-width: 800px;
   margin: 0 auto 0;
   line-height: 1.5em;
   overflow-x: hidden;
@@ -28,6 +27,7 @@ a:hover, a:focus {
   border-radius: 1px;
 }
 .terms { font-size: 1.0em; }
+
 /* header and footer areas */
 /* menu */
 .menu {
