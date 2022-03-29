@@ -38,7 +38,7 @@ disqusShortname = "jinli-link"
 
 [params]
     description = "金力的博客"
-    footer = "&copy; [JIN Li](https://jinli.link) 2020-2021 | [GitHub](https://github.com/JIN-Li-stats)"
+    footer = "&copy; [JIN Li](https://jinli.link) 2020-2022"
     
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.11.0"
