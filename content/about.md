@@ -2,7 +2,9 @@
 title: 关于
 ---
 
-一名十九年级的学生。
+一名二十年级的学生。
+### [简历](/vitae_cn/)
+
 ### 关键词
 - 统计学/R语言
 - 播客爱好者
@@ -17,6 +19,13 @@ title: 关于
 - 《最好的告别：关于衰老与死亡，你必须知道的常识》by 阿图·葛文德
 - 《球状闪电》by 刘慈欣
 
-### 联系方式
-Email: jinli.ha@foxmail.com
+
+### 一些启发
+#### 数学/统计
+- [3Blue1Brown](https://space.bilibili.com/88461692)
+- [*Linear Algebra Done Right*](https://linear.axler.net/) 
+
+
+<!--### 联系方式
+Email: jinli.ha@foxmail.com-->
 
