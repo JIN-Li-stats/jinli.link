@@ -3,6 +3,7 @@ title: Conda 常用命令及设置
 author: ''
 date: '2022-10-27'
 slug: conda-setting
+comments: true
 categories:
   - 笔记
 tags:
