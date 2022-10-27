@@ -6,7 +6,7 @@ slug: old-fortran-notes
 toc: true
 comments: true
 categories:
-  - 日志
+  - 笔记
 tags:
   - Simulation
 ---
