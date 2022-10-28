@@ -49,3 +49,7 @@ disqusShortname = "jinli-link"
 [permalinks]
   note= "/note/:year/:month/:day/:title/"
   post= "/post/:year/:month/:day/:title/"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
