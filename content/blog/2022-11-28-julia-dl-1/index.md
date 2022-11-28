@@ -11,7 +11,7 @@ tags:
   - Julia
   - Deep learning
 ---
-## 〇、前言
+## 0. 前言
 `Flux.jl` 是 Julia 语言的一个机器学习库。这里是对 Flux 官方文档的学习笔记。
 
 ### 0.1. 一些资料
