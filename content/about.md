@@ -2,7 +2,7 @@
 title: 关于
 ---
 
-一名二十一年级的学生。
+一名二十年级的学生。
 <!--### [简历（CV）](/vitae_cn/)-->
 
 ### 关键词
@@ -26,6 +26,6 @@ title: 关于
 - [*Linear Algebra Done Right*](https://linear.axler.net/) 
 
 
-<!--### 联系方式
-Email: jinli.ha@foxmail.com-->
+### 联系方式
+Email: jinli_97@163.com
 
