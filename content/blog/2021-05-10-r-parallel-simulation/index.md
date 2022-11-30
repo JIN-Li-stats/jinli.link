@@ -24,14 +24,14 @@ parallel 包是 R 自带的用于并行的包。
 
 ### foreach
 foreach 包提供了 `foreach` 循环。其基本用法为：
-```{r eval=FALSE}
+```r
 foreach(i = 1:100, .combine = 'c') %do% {
   statement
   b
 }
 ```
 其中 `i= 1:100` 是该循环所要遍历的对象，注意这里和 `for` 循环的写法是不一样的。`statement` 是循环内的语句。 `b` 表示每次循环希望输出的运算结果， `.combine` 决定了运算结果的整合方式，默认为列表，取 `c` 时运算结果整合成一个向量。可以将计算结果赋值给一个变量以便之后的操作。以下为一个小小的例子。
-```{r collapse=TRUE}
+```r
 library(foreach)
 set.seed(1)
 result <- foreach(i = 1:5, .combine = 'c') %do% {
@@ -54,7 +54,7 @@ doParallel 包 提供了 foreach 循环的并行后端。下文会介绍其使�
 
 ## 2. 操作
 第一步当然时加载 R 包了。
-```{r}
+```r
 library(parallel)
 library(foreach)
 library(iterators)
@@ -62,11 +62,11 @@ library(doParallel)
 ```
 
 使用以下命令可以查看当前计算机有多少个核（线程）。
-```{r collapse=TRUE}
+```r
 detectCores()
 ```
 接下来的代码建立了一个并行集群的对象并注册这个集群对象使之为 `foreach` 所用。听起来有点不像人话，我的理解就是取了计算机的若干个核心来做并行计算，我们可以把任务分配给注册的集群中的核心。
-```{r eval=FALSE}
+```r
 cl <- makeCluster(8)
 registerDoParallel(cl)
 
@@ -74,7 +74,7 @@ registerDoParallel(cl)
 注意 `makeCluster` 中的数字不可以超过 `detectCores` 的返回值。
 
 接下来我们把 `foreach` 循环「改造」成并行的版本。非常简单，只需要把 `%do%` 改成 `%dopar%` 即可：
-```{r eval=FALSE}
+```r
 result <- foreach(i = 1:100, .combine = 'c', .packages = c("P1", "P1") ,.export = c("fun1", "fun2")) %dopar% {
   statement
   b
@@ -87,7 +87,7 @@ result <- foreach(i = 1:100, .combine = 'c', .packages = c("P1", "P1") ,.export 
 ## 3. 例子
 如下一个例子来自 [3]， 是一个控制图的模拟计算。并行计算一定是用于解决一个相对复杂的统计模拟，简单的例子似乎没有什么意义。而每个人有不同的专业方向，我实在想不到一个好的且通用的例子，因而只放了一个我所熟悉的。
 
-```{r eval=FALSE}
+```r
 rm(list = ls())
 library(parallel)
 library(foreach)
